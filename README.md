@@ -7,9 +7,14 @@
 # Sumário
 
 - Introdução
--
--
--
+- Dados
+- Análise & Hipóteses
+- Conclusão
+- O que aprendemos com isso?
+- Ferramentas & Bibliotecas
+- Referências
+- Agradecimentos
+- Contatos
 
 # Introdução
 
@@ -43,7 +48,7 @@ Esses dados foram atualizados pela última vez em 04/09/2019. Uma versão mais r
 
 Também há um documento com as [Notas Técnicas](http://tabnet.datasus.gov.br/cgi/pni/Imun_cobertura_desde_1994.pdf) para os dados. Nele encontramos a **origem** e a **descrição** de algumas variáveis presentes nos dados.
 
-# Análise e Hipóteses
+# Análise & Hipóteses
 
 Na **Parte 1**, onde realizamos uma análise geral dos imunizantes no Brasil, foram levantadas as seguintes hipóteses para servirem como um guia para o caminho percorrido na análise:
 
@@ -65,3 +70,69 @@ Tínhamos como hipóteses para nos guiarem na análise:
 > **Hipótese 1:** Antes do surto de sarampo iniciado em 2013, a cobertura vacinal de imunizantes contra o sarampo estava relativamente baixa a vários anos.
 
 > **Hipótese 2:** Durante o surto de sarampo, de 2013 a 2015, a quantidade de vacinas aplicadas contra o sarampo aumentou bastante nos dois estados analisados e, como consequência, os casos diminuíram.
+
+# Conclusões
+
+🟢 **Parte 1: Vacinação Geral no Brasil**
+
+Após essa análise, conseguimos obter algumas conclusões relevantes e também relacionadas as nossas hipóteses.
+
+- **Hipótese 1:** A cobertura vacinal vem crescendo anualmente em todo o país.
+> Por mais que tenhamos saído de uma média de menos de 40% em 1994 e chegado a quase 100% em 2015, de um ano para o outro também ocorreram diversas quedas nesse número. No geral podemos afirmar que sim, houve um expressivo aumento na cobertura vacinal de 1994 a 2015, mas não anualmente, e sim como um todo.
+
+- **Hipótese 2:** Vacinas que devem ser aplicadas em bebês logo após o nascimento, como a [BCG e da Hepatite B](https://www.unimedlondrina.com.br/noticias/tudo-saude/07/06/2018/vacinas-importantes-recem-nascidos/), principalmente, possuem maior cobertura vacinal e também maior valor absoluto de aplicações.
+> Observamos que os imunizantes BCG, Poliomielite e DTP foram os mais aplicados, em valores absolutos, no Brasil, de 1994 a 2019. Esses são, justamente, os aplicados em recém-nascidos. Isso se explica pois, ao serem aplicados já na maternidade, não há o risco de esquecimento ou falta de vontade para a aplicação dessas vacinas, como ocorre frequentemente com outras que são aplicadas em adultos.
+
+Por último, em uma linha do tempo visualizamos quando determinados imunizantes foram introduzidos no calendário vacinal brasileiro e notamos que grande parte dos imunizantes foram introduzidos antes de 1994 (início da contabilização dos dados nessa base) e continuam os mesmos até a data de atualização em 2019. Esses são, por exemplo:
+- **BCG** (Contra Tuberculose);
+- **FA** (Contra Febre Amarela);
+- **HB** (Contra Hepatite B);
+- **VOP** (Oral Contra Poliomielite);
+- **DTP** (Tríplice Bacteriana).
+
+🟢 **Parte 2: Surto de Sarampo no Brasil em 2014**
+
+Vimos que no período de 2013 a 2015 dois estados brasileiros sofreram com um surto de sarampo após não registrarem nenhum caso a quae 15 anos. Esses estados foram Pernambuco e Ceará. Tivemos a seguintes distruibuição de casos:
+
+**Estado** | 2013 | 2014 | 2015
+--- | --- | --- | ---
+**Pernambuco** | 200 casos | 24 casos | 0 casos
+**Ceará** | 1 caso | 695 casos | 32 casos
+
+Nesse período, se intensificaram as ações de combate à doença, aumentando a cobertura vacinal e a quantidade de doses aplicadas de vacinas contra o sarampo.
+
+Em 2014 foram aplicadas 413.394 doses de imunizantes contra o Sarampo em Pernambuco e 503.619 doses no Ceará. A média de doses aplicadas contra o Sarampo entre 1994 e 2019 em Pernambuco foi de 216.214 e no Ceará a média foi de 230.200 doses.
+
+Com essas informações fica claro que o número de doses aplicadas de imunizantes contra o sarampo no ano de 2014, pico no número de doses, foi mais do que duas vezes a média nos dois estados analisados entre 1994 e 2019.
+
+Consequimos analisar também as hipóteses propostas:
+
+- **Hipótese 1:** Antes do surto de sarampo iniciado em 2013, a cobertura vacinal de imunizantes contra o sarampo estava relativamente baixa a vários anos.
+> Isso não é verdade, estavamos com um longo período de cobertura vacinal a 100%, mas bastou um único ano com cobertura vacinal abaixo de 95% para que a doença se alastrasse pelos estados analisados.
+
+- **Hipótese 2:** Durante o surto de sarampo, de 2013 a 2015, a quantidade de vacinas aplicadas contra o sarampo aumentou bastante nos dois estados analisados e, como consequência, os casos diminuíram.
+> Verdade, como pode ser visto claramente nos dois gráficos anteriores. Aumentando a quantidade de doses aplicadas e, consequentemente, a cobertura vacina, o surto foi controlado e os dois estados e o Brasil se viu novamente livre da doença.
+
+# O que aprendemos com isso?
+
+É indisputável que a imunização é totalmente necessária para superarmos doenças que já possuem vacinas. O surto de sarampo de 2013 a 2015 foi completamente controlado após a aplicação em massa de vacinas em todo o público alvo no estados de Pernambuco e do Ceará.
+
+Fazendo um paralelo com o momento atual de pandemia da Covid-19, sonhamos com o dia que teremos uma Cobertura Vacinal acima de 95% contra essa doença, pois essa é a única forma de obtermos sucesso no enfrentamento do coronavírus.
+
+Resumindo: VACINA JÁ!
+
+# Ferramentas & Bibliotecas
+
+Os notebooks .ipynb foram produzidos no JupyterLab utilizando o Python 3.8.5, com as seguintes bibliotecas:
+- Pandas 1.2.3
+- Numpy 1.20.1
+- Seaborn 0.11.0
+- Matplotlib 3.3.2
+
+# Referências
+
+
+# Agradecimentos
+
+
+# Contatos
