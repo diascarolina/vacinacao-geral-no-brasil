@@ -119,7 +119,11 @@ Consequimos analisar também as hipóteses propostas:
 
 Fazendo um paralelo com o momento atual de pandemia da Covid-19, sonhamos com o dia que teremos uma Cobertura Vacinal acima de 95% contra essa doença, pois essa é a única forma de obtermos sucesso no enfrentamento do coronavírus.
 
-Resumindo: VACINA JÁ!
+**Resumindo: VACINA JÁ!**
+
+<p align="center">
+	<img src="https://raw.githubusercontent.com/diascarolina/vacinacao-geral-no-brasil/main/other/gif.gif?token=AH6WME2ADIP7NUVN37NYAOLAZWBQW">
+</p>
 
 # Ferramentas & Bibliotecas
 
