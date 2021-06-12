@@ -1,4 +1,5 @@
-# Vacinação no Brasil: O que Aprendemos com o Surto de Sarampo em 2014
+# Vacinação no Brasil <img src="https://img.icons8.com/ios/23/000000/syringe.png"/> <img src="https://img.icons8.com/ios/23/000000/brazil-map.png"/>: O que Aprendemos com o Surto de Sarampo em 2014
+[<img src="https://img.shields.io/badge/author-Carolina%20Dias-ff69b4?style=flat-square"/>](https://github.com/diascarolina) [<img src="https://img.shields.io/badge/carodias-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/carodias/) [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=flat-square&logo=Jupyter)](https://jupyter.org/try) [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg?style=flat-square)](https://github.com/diascarolina/healthcare-analysis/blob/main/LICENSE)
  
 ![](https://raw.githubusercontent.com/diascarolina/vacinacao-geral-no-brasil/main/other/banner.jpg?token=AH6WME4BOFRN6LIHPSJL6KDAZVPJW)
 
