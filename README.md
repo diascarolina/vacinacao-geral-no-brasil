@@ -166,6 +166,7 @@ Os notebooks .ipynb foram produzidos no JupyterLab utilizando o Python 3.8.5, co
 - [Numpy](https://numpy.org/)
 - [Pandas](https://pandas.pydata.org/)
 - [Matplotlib](https://matplotlib.org/)
+- Imagem do banner por [Thirdman](https://www.pexels.com/pt-br/@thirdman) no [Pexels](https://www.pexels.com/pt-br/)
 
 
 <a name="agra"></a>
