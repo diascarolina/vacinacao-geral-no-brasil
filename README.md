@@ -6,17 +6,19 @@
 
 # Sumário
 
-- Introdução
-- Dados
-- Análise & Hipóteses
-- Conclusão
-- O que aprendemos com isso?
-- Ferramentas & Bibliotecas
-- Referências
-- Agradecimentos
-- Contatos
+1. [Introdução](#intro)
+2. [Dados](#data)
+3. [Análise & Hipóteses](#analise)
+4. [Conclusões](#conc)
+5. [O que aprendemos com isso?](#aprendemos)
+6. [Ferramentas & Bibliotecas](#libs)
+7. [Referências](#refs)
+8. [Observações & Agradecimentos](#agra)
+9. [Contatos](#contact)
 
-# Introdução
+
+<a name="intro"></a>
+# 1 Introdução
 
 <a>
 	<img align="right" src="https://raw.githubusercontent.com/diascarolina/vacinacao-geral-no-brasil/main/other/syringe.png?token=AH6WMEZBFIPTIFQTPBFZKFDAZQRI6">
@@ -32,7 +34,8 @@ Assim, dividimos o projeto em duas partes. Na primeira iniciamos com uma anális
 
 🟢 [Parte 2: Surto de Sarampo no Brasil em 2014](https://github.com/diascarolina/vacinacao-geral-no-brasil/blob/main/notebooks/sarampo.ipynb)
 
-# Dados
+<a name="data"></a>
+# 2 Dados
 
 <a>
 	<img align="right" src="https://raw.githubusercontent.com/diascarolina/vacinacao-geral-no-brasil/main/other/pni.png?token=AH6WME7VQUE662N2BI6F6Q3AZQQRQ">
@@ -48,7 +51,8 @@ Esses dados foram atualizados pela última vez em 04/09/2019. Uma versão mais r
 
 Também há um documento com as [Notas Técnicas](http://tabnet.datasus.gov.br/cgi/pni/Imun_cobertura_desde_1994.pdf) para os dados. Nele encontramos a **origem** e a **descrição** de algumas variáveis presentes nos dados.
 
-# Análise & Hipóteses
+<a name="analise"></a>
+# 3 Análise & Hipóteses
 
 Na **Parte 1**, onde realizamos uma análise geral dos imunizantes no Brasil, foram levantadas as seguintes hipóteses para servirem como um guia para o caminho percorrido na análise:
 
@@ -71,7 +75,8 @@ Tínhamos como hipóteses para nos guiarem na análise:
 
 > **Hipótese 2:** Durante o surto de sarampo, de 2013 a 2015, a quantidade de vacinas aplicadas contra o sarampo aumentou bastante nos dois estados analisados e, como consequência, os casos diminuíram.
 
-# Conclusões
+<a name="conc"></a>
+# 4 Conclusões
 
 🟢 **Parte 1: Vacinação Geral no Brasil**
 
@@ -112,8 +117,9 @@ Consequimos analisar também as hipóteses propostas:
 
 - **Hipótese 2:** Durante o surto de sarampo, de 2013 a 2015, a quantidade de vacinas aplicadas contra o sarampo aumentou bastante nos dois estados analisados e, como consequência, os casos diminuíram.
 > Verdade, como pode ser visto claramente nos dois gráficos anteriores. Aumentando a quantidade de doses aplicadas e, consequentemente, a cobertura vacina, o surto foi controlado e os dois estados e o Brasil se viu novamente livre da doença.
-
-# O que aprendemos com isso?
+> 
+<a name="aprendemos"></a>
+# 5 O que aprendemos com isso?
 
 É indisputável que a imunização é totalmente necessária para superarmos doenças que já possuem vacinas. O surto de sarampo de 2013 a 2015 foi completamente controlado após a aplicação em massa de vacinas em todo o público alvo no estados de Pernambuco e do Ceará.
 
@@ -125,18 +131,55 @@ Fazendo um paralelo com o momento atual de pandemia da Covid-19, sonhamos com o 
 	<img src="https://raw.githubusercontent.com/diascarolina/vacinacao-geral-no-brasil/main/other/gif.gif?token=AH6WME2ADIP7NUVN37NYAOLAZWBQW">
 </p>
 
-# Ferramentas & Bibliotecas
+<a name="libs"></a>
+# 6 Ferramentas & Bibliotecas
 
 Os notebooks .ipynb foram produzidos no JupyterLab utilizando o Python 3.8.5, com as seguintes bibliotecas:
-- Pandas 1.2.3
-- Numpy 1.20.1
-- Seaborn 0.11.0
-- Matplotlib 3.3.2
+- Pandas 1.2.3;
+- Numpy 1.20.1;
+- Seaborn 0.11.0;
+- Matplotlib 3.3.2.
 
-# Referências
+<a name="refs"></a>
+# 7 Referências
+
+- [Programa Nacional de Imunização - Apresentação](http://pni.datasus.gov.br/apresentacao.asp)
+- [TABNET](http://www2.datasus.gov.br/DATASUS/index.php?area=02)
+- [DATASUS](https://datasus.saude.gov.br/)
+- [Origem dos Dados](http://tabnet.datasus.gov.br/cgi/tabcgi.exe?pni/cnv/cpniuf.def)
+- [Notas Técnicas](http://tabnet.datasus.gov.br/cgi/pni/Imun_cobertura_desde_1994.pdf)
+- [As Vacinas Importantes Para Recém-Nascidos](https://www.unimedlondrina.com.br/noticias/tudo-saude/07/06/2018/vacinas-importantes-recem-nascidos/)
+- [Posto de Saúde de Fortaleza recebe longas filas após surto de ssarampo](http://g1.globo.com/ceara/noticia/2014/01/posto-de-saude-de-fortaleza-recebe-longas-filas-apos-surto-de-sarampo.html)
+- [Aumento de casos de sarampo desperta alerta para os sintomas e a prevenção da doença](http://www.iff.fiocruz.br/index.php/9-noticias/2014/6-aumentosarampo1)
+- [O que é sarampo](https://www.saude.pr.gov.br/Pagina/Sarampo)
+- [10 perguntas e respostas sobre a vacina do sarampo](https://www.uol.com.br/vivabem/noticias/redacao/2019/07/10/10-perguntas-e-respostas-sobre-a-vacina-do-sarampo.htm)
+- [Vacina tríplice viral: para que serve, quando tomar e efeitos colaterais](https://www.tuasaude.com/vacina-triplice-viral/)
+- [Notas Técnicas](http://tabnet.datasus.gov.br/cgi/pni/Imun_cobertura_desde_1994.pdf)
+- [Boletim Epidemiológico Sarampo](https://sbim.org.br/images/files/boletim_epid_sarampo_13_02_2015.pdf)
+- [Casos de sarampo no país ultrapassam recorde de 1999](https://www.folhape.com.br/noticias/casos-de-sarampo-no-pais-ultrapassam-recorde-de-1999/76664/)
+- [Estratégias e resultados da vacinação no enfrentamento da epidemia de sarampo no estado do Ceará, 2013-2015](https://www.scielo.br/j/ress/a/7nR8MdMkqYBnVSt6CrkQLfg/?lang=pt)
+- [Eliminação do sarampo no Brasil tem anúncio internacional](https://portal.fiocruz.br/noticia/eliminacao-do-sarampo-no-brasil-tem-anuncio-internacional)
+- [Alura](https://www.alura.com.br/)
+- [Bootcamp Data Science Aplicada](https://www.alura.com.br/bootcamp/data-science-aplicada/matriculas-abertas)
+- [Storytelling with Data](https://www.storytellingwithdata.com/)
+- [Storytelling with Data in Python](https://github.com/empathy87/storytelling-with-data)
+- [Numpy](https://numpy.org/)
+- [Pandas](https://pandas.pydata.org/)
+- [Matplotlib](https://matplotlib.org/)
 
 
-# Agradecimentos
+<a name="agra"></a>
+# 8 Observações & Agradecimentos
 
+Esse projeto é parte do Módulo 2 do Bootcamp Data Science Aplicada da [Alura](https://www.alura.com.br/).
 
-# Contatos
+Agradecimentos aos excelentes instrutores do módulo, Guilherme Silveira e Thiago Gonçalves.
+
+<a name="contact"></a>
+# 9 Contatos
+
+Dúvidas? Dicas? Sugestões? Ficarei feliz em recebê-las!
+- **E-mail:** [carolinadiasw@gmail.com](mailto:carolinadiasw@gmail.com)
+- **Linkedin:** https://www.linkedin.com/in/carodias/
+- **Github:** https://github.com/diascarolina
+- **Discord**: [Carolina Dias#6164](https://discord.com/app)
