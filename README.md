@@ -113,7 +113,7 @@ Com essas informações fica claro que o número de doses aplicadas de imunizant
 Consequimos analisar também as hipóteses propostas:
 
 - **Hipótese 1:** Antes do surto de sarampo iniciado em 2013, a cobertura vacinal de imunizantes contra o sarampo estava relativamente baixa a vários anos.
-> Isso não é verdade, estavamos com um longo período de cobertura vacinal a 100%, mas bastou um único ano com cobertura vacinal abaixo de 95% para que a doença se alastrasse pelos estados analisados.
+> Isso não é verdade, estávamos com um longo período de cobertura vacinal a 100%, mas bastou um único ano com cobertura vacinal abaixo de 95% para que a doença se alastrasse pelos estados analisados.
 
 - **Hipótese 2:** Durante o surto de sarampo, de 2013 a 2015, a quantidade de vacinas aplicadas contra o sarampo aumentou bastante nos dois estados analisados e, como consequência, os casos diminuíram.
 > Verdade, como pode ser visto claramente nos dois gráficos anteriores. Aumentando a quantidade de doses aplicadas e, consequentemente, a cobertura vacina, o surto foi controlado e os dois estados e o Brasil se viu novamente livre da doença.
