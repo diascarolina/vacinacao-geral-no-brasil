@@ -35,6 +35,8 @@ Assim, dividimos o projeto em duas partes. Na primeira iniciamos com uma anális
 
 ### 🟢 [Parte 2: Surto de Sarampo no Brasil em 2014](https://github.com/diascarolina/vacinacao-geral-no-brasil/blob/main/notebooks/sarampo.ipynb)
 
+### 🟢 [Análise Completa no Medium](https://carodias.medium.com/vacina%C3%A7%C3%A3o-no-brasil-o-que-aprendemos-com-o-surto-de-sarampo-em-2014-56d8518c3ef0)
+
 <a name="data"></a>
 # 2 Dados
 
