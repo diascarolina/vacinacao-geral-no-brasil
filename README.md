@@ -110,7 +110,7 @@ Em 2014 foram aplicadas 413.394 doses de imunizantes contra o Sarampo em Pernamb
 
 Com essas informações fica claro que o número de doses aplicadas de imunizantes contra o sarampo no ano de 2014, pico no número de doses, foi mais do que duas vezes a média nos dois estados analisados entre 1994 e 2019.
 
-Consequimos analisar também as hipóteses propostas:
+Conseguimos analisar também as hipóteses propostas:
 
 - **Hipótese 1:** Antes do surto de sarampo iniciado em 2013, a cobertura vacinal de imunizantes contra o sarampo estava relativamente baixa a vários anos.
 > Isso não é verdade, estávamos com um longo período de cobertura vacinal a 100%, mas bastou um único ano com cobertura vacinal abaixo de 95% para que a doença se alastrasse pelos estados analisados.
