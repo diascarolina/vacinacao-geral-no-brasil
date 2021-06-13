@@ -28,11 +28,14 @@ Já é de conhecimento de todos que o principal assunto dos últimos meses, nos 
 
 É nesse contexto que torna-se relevante olharmos para o passado e estudarmos casos anteriores de doenças que foram superadas com vacinas, as chamadas doenças imunopreveníveis, para que possamos traçar um paralelo com os dias de hoje, pois, como diria aquela famosa frase atribuída ao filósofo irlandês Edmund Burke, _"Aqueles que não conhecem a história estão fadados a repeti-la."_ Pelo surgimento e avanço de grupos anti-vacina e pelo comportamento de quem deveria estar liderando o país, parece que essa lição não foi aprendida.
 
-Assim, dividimos o projeto em duas partes. Na primeira iniciamos com uma análise geral sobre os imunizantes mais aplicados e utilizados no calendário vacinal brasileiro, como uma forma de panorama geral sobre o [Programa Nacional de Imunização (PNI)](http://pni.datasus.gov.br/apresentacao.asp). Na segunda parte, focaremos nossa atenção no surto de sarampo ocorrido entre 2013 e 2015 nos estados de Pernambuco e no Ceará, buscando um paralelo, com lições e aprendizados que esse momento pode ter trazido para a atual pandemia de Covid-19 (ou, no caso, a falta de "aprendizado").
+Assim, dividimos o projeto em duas partes. Na primeira iniciamos com uma análise geral sobre os imunizantes mais aplicados e utilizados no calendário vacinal brasileiro, como uma forma de panorama geral sobre o [Programa Nacional de Imunizações (PNI)](http://pni.datasus.gov.br/apresentacao.asp). Na segunda parte, focaremos nossa atenção no surto de sarampo ocorrido entre 2013 e 2015 nos estados de Pernambuco e no Ceará, buscando um paralelo, com lições e aprendizados que esse momento pode ter trazido para a atual pandemia de Covid-19 (ou, no caso, a falta de "aprendizado").
 
-🟢 [Parte 1: Vacinação Geral no Brasil](https://github.com/diascarolina/vacinacao-geral-no-brasil/blob/main/notebooks/vacinacao_geral_no_brasil.ipynb)
+ 
+### 🟢 [Parte 1: Vacinação Geral no Brasil](https://github.com/diascarolina/vacinacao-geral-no-brasil/blob/main/notebooks/vacinacao_geral_no_brasil.ipynb)
 
-🟢 [Parte 2: Surto de Sarampo no Brasil em 2014](https://github.com/diascarolina/vacinacao-geral-no-brasil/blob/main/notebooks/sarampo.ipynb)
+### 🟢 [Parte 2: Surto de Sarampo no Brasil em 2014](https://github.com/diascarolina/vacinacao-geral-no-brasil/blob/main/notebooks/sarampo.ipynb)
+
+### 🟢 [Análise Completa no Medium](https://carodias.medium.com/vacina%C3%A7%C3%A3o-no-brasil-o-que-aprendemos-com-o-surto-de-sarampo-em-2014-56d8518c3ef0)
 
 <a name="data"></a>
 # 2 Dados
@@ -41,13 +44,13 @@ Assim, dividimos o projeto em duas partes. Na primeira iniciamos com uma anális
 	<img align="right" src="https://raw.githubusercontent.com/diascarolina/vacinacao-geral-no-brasil/main/other/pni.png?token=AH6WME7VQUE662N2BI6F6Q3AZQQRQ">
 </a>
 
-Os dados utilizados nas análises foram obtidos através do dados abertos do Sistema Único de Saúde (SUS), mais especificamente os dados do [Programa Nacional de Imunização (PNI)](http://pni.datasus.gov.br/apresentacao.asp). Criado em 1973 pelo Ministério da Saúde, o PNI tem como objetivo coordenar as ações de imunizações em todo o território nacional, traçando diretrizes e prestando serviços integrais de saúde através de sua rede própria. É uma ferramenta essencial para a manutenção da saúde pública brasileira, tendo sido responsável por erradicar ou controlar diversas doenças imunopreveníveis, como o sarampo, a Hepatite B, e a Poliomielite.
+Os dados utilizados nas análises foram obtidos através do dados abertos do Sistema Único de Saúde (SUS), mais especificamente os dados do [Programa Nacional de Imunizações (PNI)](http://pni.datasus.gov.br/apresentacao.asp). Criado em 1973 pelo Ministério da Saúde, o PNI tem como objetivo coordenar as ações de imunizações em todo o território nacional, traçando diretrizes e prestando serviços integrais de saúde através de sua rede própria. É uma ferramenta essencial para a manutenção da saúde pública brasileira, tendo sido responsável por erradicar ou controlar diversas doenças imunopreveníveis, como o sarampo, a Hepatite B, e a Poliomielite.
 
 Esses dados foram atualizados pela última vez em 04/09/2019. Uma versão mais recente desses dados pode ser encontrada nessa [página do DATASUS](http://tabnet.datasus.gov.br/cgi/tabcgi.exe?pni/cnv/cpniuf.def) que teve última atualização em 10/06/2021. Uma nova análise futura poderá utilizar esses dados mais recentes. Para uma melhor organização, coloquei a parte de limpeza dos dados em um notebook separado, onde os dados brutos eram importados e, após tratados, eram exportados em novos arquivos .csv limpos.
 
-🟢 Os dados estão armazenados na pasta [```dados```](https://github.com/diascarolina/vacinacao-geral-no-brasil/tree/main/dados) desse repositório.
+### 🟢 Os dados estão armazenados na pasta [```dados```](https://github.com/diascarolina/vacinacao-geral-no-brasil/tree/main/dados) desse repositório.
 
-🟢 [Notebook em que foi feita a limpeza dos dados brutos](https://github.com/diascarolina/vacinacao-geral-no-brasil/blob/main/notebooks/limpeza_dados.ipynb)
+### 🟢 [Notebook em que foi feita a limpeza dos dados brutos](https://github.com/diascarolina/vacinacao-geral-no-brasil/blob/main/notebooks/limpeza_dados.ipynb)
 
 Também há um documento com as [Notas Técnicas](http://tabnet.datasus.gov.br/cgi/pni/Imun_cobertura_desde_1994.pdf) para os dados. Nele encontramos a **origem** e a **descrição** de algumas variáveis presentes nos dados.
 
@@ -125,7 +128,8 @@ Conseguimos analisar também as hipóteses propostas:
 
 Fazendo um paralelo com o momento atual de pandemia da Covid-19, sonhamos com o dia que teremos uma Cobertura Vacinal acima de 95% contra essa doença, pois essa é a única forma de obtermos sucesso no enfrentamento do coronavírus.
 
-**Resumindo: VACINA JÁ!**
+<p align="center">
+	<strong><img src="https://img.icons8.com/emoji/20/000000/syringe-emoji.png"/> Resumindo: VACINA JÁ! <img src="https://img.icons8.com/emoji/20/000000/syringe-emoji.png"/></strong></p>
 
 <p align="center">
 	<img src="https://raw.githubusercontent.com/diascarolina/vacinacao-geral-no-brasil/main/other/gif.gif?token=AH6WME2ADIP7NUVN37NYAOLAZWBQW">
@@ -174,7 +178,9 @@ Os notebooks .ipynb foram produzidos no JupyterLab utilizando o Python 3.8.5, co
 
 Esse projeto é parte do Módulo 2 do Bootcamp Data Science Aplicada da [Alura](https://www.alura.com.br/).
 
-Agradecimentos aos excelentes instrutores do módulo, Guilherme Silveira e Thiago Gonçalves.
+Agradecimentos aos excelentes instrutores do módulo, Guilherme Silveira e Thiago Gonçalves, sempre com dicas pertinentes durante as aulas.
+
+E um agradecimento especial aos meu amigos _"bootcampers"_ Junior Torres e Valquíria Alencar que trouxeram bom-humor para os momentos mais cansativos do projeto.
 
 <a name="contact"></a>
 # 9 Contatos
