@@ -97,7 +97,7 @@ Por último, em uma linha do tempo visualizamos quando determinados imunizantes 
 
 🟢 **Parte 2: Surto de Sarampo no Brasil em 2014**
 
-Vimos que no período de 2013 a 2015 dois estados brasileiros sofreram com um surto de sarampo após não registrarem nenhum caso a quae 15 anos. Esses estados foram Pernambuco e Ceará. Tivemos a seguintes distruibuição de casos:
+Vimos que no período de 2013 a 2015 dois estados brasileiros sofreram com um surto de sarampo após não registrarem nenhum caso a quase 15 anos. Esses estados foram Pernambuco e Ceará. Tivemos a seguintes distribuição de casos:
 
 **Estado** | 2013 | 2014 | 2015
 --- | --- | --- | ---
@@ -110,10 +110,10 @@ Em 2014 foram aplicadas 413.394 doses de imunizantes contra o Sarampo em Pernamb
 
 Com essas informações fica claro que o número de doses aplicadas de imunizantes contra o sarampo no ano de 2014, pico no número de doses, foi mais do que duas vezes a média nos dois estados analisados entre 1994 e 2019.
 
-Consequimos analisar também as hipóteses propostas:
+Conseguimos analisar também as hipóteses propostas:
 
 - **Hipótese 1:** Antes do surto de sarampo iniciado em 2013, a cobertura vacinal de imunizantes contra o sarampo estava relativamente baixa a vários anos.
-> Isso não é verdade, estavamos com um longo período de cobertura vacinal a 100%, mas bastou um único ano com cobertura vacinal abaixo de 95% para que a doença se alastrasse pelos estados analisados.
+> Isso não é verdade, estávamos com um longo período de cobertura vacinal a 100%, mas bastou um único ano com cobertura vacinal abaixo de 95% para que a doença se alastrasse pelos estados analisados.
 
 - **Hipótese 2:** Durante o surto de sarampo, de 2013 a 2015, a quantidade de vacinas aplicadas contra o sarampo aumentou bastante nos dois estados analisados e, como consequência, os casos diminuíram.
 > Verdade, como pode ser visto claramente nos dois gráficos anteriores. Aumentando a quantidade de doses aplicadas e, consequentemente, a cobertura vacina, o surto foi controlado e os dois estados e o Brasil se viu novamente livre da doença.
@@ -121,7 +121,7 @@ Consequimos analisar também as hipóteses propostas:
 <a name="aprendemos"></a>
 # 5 O que aprendemos com isso?
 
-É indisputável que a imunização é totalmente necessária para superarmos doenças que já possuem vacinas. O surto de sarampo de 2013 a 2015 foi completamente controlado após a aplicação em massa de vacinas em todo o público alvo no estados de Pernambuco e do Ceará.
+É indisputável que a imunização é totalmente necessária para superarmos doenças que já possuem vacinas. O surto de sarampo de 2013 a 2015 foi completamente controlado após a aplicação em massa de vacinas em todo o público-alvo no estados de Pernambuco e do Ceará.
 
 Fazendo um paralelo com o momento atual de pandemia da Covid-19, sonhamos com o dia que teremos uma Cobertura Vacinal acima de 95% contra essa doença, pois essa é a única forma de obtermos sucesso no enfrentamento do coronavírus.
 
@@ -166,6 +166,7 @@ Os notebooks .ipynb foram produzidos no JupyterLab utilizando o Python 3.8.5, co
 - [Numpy](https://numpy.org/)
 - [Pandas](https://pandas.pydata.org/)
 - [Matplotlib](https://matplotlib.org/)
+- Imagem do banner por [Thirdman](https://www.pexels.com/pt-br/@thirdman) no [Pexels](https://www.pexels.com/pt-br/)
 
 
 <a name="agra"></a>
