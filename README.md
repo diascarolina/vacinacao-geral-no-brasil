@@ -97,7 +97,7 @@ Por último, em uma linha do tempo visualizamos quando determinados imunizantes 
 
 🟢 **Parte 2: Surto de Sarampo no Brasil em 2014**
 
-Vimos que no período de 2013 a 2015 dois estados brasileiros sofreram com um surto de sarampo após não registrarem nenhum caso a quae 15 anos. Esses estados foram Pernambuco e Ceará. Tivemos a seguintes distruibuição de casos:
+Vimos que no período de 2013 a 2015 dois estados brasileiros sofreram com um surto de sarampo após não registrarem nenhum caso a quase 15 anos. Esses estados foram Pernambuco e Ceará. Tivemos a seguintes distribuição de casos:
 
 **Estado** | 2013 | 2014 | 2015
 --- | --- | --- | ---
@@ -121,7 +121,7 @@ Conseguimos analisar também as hipóteses propostas:
 <a name="aprendemos"></a>
 # 5 O que aprendemos com isso?
 
-É indisputável que a imunização é totalmente necessária para superarmos doenças que já possuem vacinas. O surto de sarampo de 2013 a 2015 foi completamente controlado após a aplicação em massa de vacinas em todo o público alvo no estados de Pernambuco e do Ceará.
+É indisputável que a imunização é totalmente necessária para superarmos doenças que já possuem vacinas. O surto de sarampo de 2013 a 2015 foi completamente controlado após a aplicação em massa de vacinas em todo o público-alvo no estados de Pernambuco e do Ceará.
 
 Fazendo um paralelo com o momento atual de pandemia da Covid-19, sonhamos com o dia que teremos uma Cobertura Vacinal acima de 95% contra essa doença, pois essa é a única forma de obtermos sucesso no enfrentamento do coronavírus.
 
